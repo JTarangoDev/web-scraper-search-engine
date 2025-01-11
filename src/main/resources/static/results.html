@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, 
+                   initial-scale=1.0">
+    <title> Search and Scrap Google budget clon </title>
+    <link rel="stylesheet" href="styles/results.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+  
+<body>
+  
+    <!-- Navigation Section -->
+    <nav class="site-navigation">
+        <div class="header-container">
+
+            <div class="search">
+                <a href="index.html">
+                    <img id="google_image" src="https://media.geeksforgeeks.org/wp-content/uploads/20240120152553/social-(1).png">
+                </a>
+
+                <section class="search-input-section">
+                    <div class="search-input-container">
+                        
+                        <input id="search-input"
+                            type="text" 
+                            placeholder="Search Google or type a URL" 
+                            class="search-input">
+                    </div>
+        
+                    <div class="search-input-buttoms">
+                        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240120153531/google-voice.png"
+                        alt="Google Mic" 
+                        class="mic-icon">
+                
+                        <button onclick="onClickSearch()" class="gsb-bttn">
+                            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240122040847/search.png"
+                                alt="google-search-btn"
+                                class="gsb">
+                        </button>
+                        
+                    </div>
+                    
+                </section>
+            </div>
+
+            <div>
+                <a href="#" class="nav-link">
+                    Gmail
+                </a>
+                <a href="#" class="nav-link">
+                    Images
+                </a>
+                <a href="#" class="nav-link">
+                    <i class=" fa fa-solid fa-flask myflask"></i>
+                </a>
+                <button class="sign-in-btn">
+                    Sign in
+                </button> 
+            </div>
+            
+        </div>
+    </nav>
+  
+    <!-- Main Content Section -->
+    <main>
+        <section id="results" class="results">
+            <div class="result-not-found">
+                <span>Your search did not match any documents.</span>
+            </div> 
+        </section>
+  
+    </main>
+
+    <footer class="footer">
+        <section class="footer-wrapper">
+            <div class="footer-container">
+                <div>
+                    <span>México</span>
+                </div>
+            </div>
+            <div class="footer-links-section">
+                <div>
+                    <a href="#" class="nav-link">Help</a>
+                    <a href="#" class="nav-link">Send feedback</a>
+                    <a href="#" class="nav-link">Privacy</a>
+                    <a href="#" class="nav-link">Terms</a>
+                </div>
+            </div>
+        </section>
+        
+    </footer>
+
+    <script src="js/results.js"></script>
+</body>
+  
+</html>

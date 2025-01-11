@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, 
+                   initial-scale=1.0">
+    <title> Search and Scrap Google budget clon </title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+  
+<body>
+  
+    <!-- Navigation Section -->
+    <nav class="site-navigation">
+        <div class="header-container">
+            <a href="#" class="nav-link">
+                Gmail
+            </a>
+            <a href="#" class="nav-link">
+                Images
+            </a>
+            <a href="#" class="nav-link">
+                <i class=" fa fa-solid fa-flask myflask"></i>
+            </a>
+            <button class="sign-in-btn">
+                Sign in
+            </button>
+        </div>
+    </nav>
+  
+    <!-- Main Content Section -->
+    <main>
+        <img id="google_image" src="https://media.geeksforgeeks.org/wp-content/uploads/20240120152553/social-(1).png">
+  
+        <!-- Search Input Section -->
+        <section class="search-input-section">
+            <div class="search-input-container">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240122040847/search.png"
+                     alt="google-search-btn"
+                     class="gsb">
+                     
+                <input id="search-input"
+                       type="text" 
+                       placeholder="Search Google or type a URL" 
+                       class="search-input">
+            </div>
+  
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240120153531/google-voice.png"
+                 alt="Google Mic" 
+                 class="mic-icon">
+        </section>
+  
+        <!-- Buttons Section -->
+        <section class="buttons-section">
+            <button onclick="onClickSearch()" class="google-search-btn">
+                Google Search
+            </button>
+            <button class="feeling-lucky-btn">
+                I'm Feeling Lucky
+            </button>
+        </section>
+  
+        <div class="customize_size">
+            <i class="fa fa-solid fa-pen"></i>
+            Customize Chrome
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div>
+                <span>México</span>
+            </div>
+        </div>
+        <div class="footer-links-section">
+            <div>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Advertising</a>
+                <a href="#" class="nav-link">Business</a>
+                <a href="#" class="nav-link">How Search Works</a>
+            </div>
+            <div>
+                <a href="#" class="nav-link">Privacy</a>
+                <a href="#" class="nav-link">Terms</a>
+                <a href="#" class="nav-link">Settings</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/results.js"></script>
+</body>
+  
+</html>
